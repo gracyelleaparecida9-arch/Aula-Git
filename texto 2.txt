@@ -1,0 +1,33 @@
+
+#include <iostream> 
+ 
+int soma(int a, int b)
+{
+ return a + b;
+}
+int subtraçao(int a, int b)
+{
+ return a - b;
+}
+int multiplicaçao(int a, int b)
+{
+ return a * b;
+}
+float divisao(float a, float b)
+{
+ return a / b;
+}
+
+int main() 
+{
+ int resultado1 = soma(82,25);
+ int resultado2 = subtraçao(31,32);
+ int resultado3 = multiplicaçao(22,13);
+ float resultado4 = divisao(16,29);
+
+ std::cout << "O resultado da soma e:" << resultado1 << std::endl;
+ std::cout << "O resultado da subtraçao e:" << resultado2 << std::endl;
+ std::cout << "O resultado da multiplicaçao e:" << resultado3 << std::endl;
+ std::cout << "O resultado da divisao e:" << resultado4 << std::endl;
+return 0;
+}
